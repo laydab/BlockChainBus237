@@ -226,6 +226,45 @@ body {
     box-shadow: 0 20px 40px rgba(0, 255, 255, 0.2);
 }
 
+.section h1 {
+    color: #00ffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.blog-link {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color: #00ffff;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.blog-link a {
+    color: inherit; /* Inherit color from .blog-link */
+    text-decoration: none;
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.blog-link a:hover {
+    background: linear-gradient(45deg, #00ffff, #0080ff);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.4);
+}
+.line-visit-blog {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color: #00ffff;
+    position: relative;
+}
+
 .section.intro {
     background: linear-gradient(135deg, rgba(227, 242, 253, 0.9) 0%, rgba(187, 222, 251, 0.9) 100%);
     border-left: 5px solid #00ffff;
